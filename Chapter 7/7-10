@@ -1,0 +1,1 @@
+add_before and add_after cannot be called on empty PositionalLists because they require Positions as arguments. add_first and add_last will work even when the PositionalList is empty. 

@@ -1,0 +1,2 @@
+Minimum Case : each of n elements accessed k times for a total of kn accesses => 0 elements accesed fewer than k times
+Maximum Case : 1 element accessed kn times, n-1 elements accesed 0 times for a total of kn accesses => n-1 elements accessed fewer than k times
