@@ -1,0 +1,11 @@
+n1
+|
+n(2)
+|
+...
+|
+n(N-1)
+|
+n(N)
+
+Given a tree with N nodes but only a single branch, a call to tree.depth(n(N)) runs in O(N) time => .depth() runs in O(n) time

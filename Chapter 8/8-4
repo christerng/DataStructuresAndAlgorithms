@@ -1,0 +1,13 @@
+def _height2(self, p):
+    if self.is_leaf(p):
+        return 0
+    return 1 + max(self._height2(c) for c in self.children(p))
+
+
+Given:
+.children() runs in O(1 + c(p)) time, where c(p) denotes the number of children of p
+Then:
+O(1 + c(p)) time is spent at each position
+_height2 runs in O(n + sum(c(p) for p in positions)) time
+sum(c(p) for p in positions) < n - 1, if _height2 is called on a node other than root
+_height2 runs in O(n + n - 1) = O(n) time

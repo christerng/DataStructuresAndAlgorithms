@@ -1,0 +1,9 @@
+# INCOMPLETE
+Given:
+The height of a nonempty tree T is the height of the root of T, and
+the maximum of the depth of T's leaf positions is the maximum of the number of ancestors of T's leaf positions
+
+
+
+ The height of a nonempty tree T is equal to the maximum of the depths of its leaf positions
+

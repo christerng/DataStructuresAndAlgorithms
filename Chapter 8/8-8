@@ -1,0 +1,9 @@
+Minimum nE for a proper binary tree is h+1. This occurs when the tree only consists of the root, in which case h=0 and nE=1.
+Maximum nE for a proper binary tree is 2^h. This occurs the tree is fully branched, in which case level h contains 2^h nodes.
+
+Minimum h for a proper binary tree is log(n + 1) - 1. This occurs when the tree is fully branched.
+Maximum h for a proper binary tree is (n - 1) / 2. This occurs when each node along the tree's single branch has a right child that is a leaf.
+
+For h = log(n + 1) - 1, n >= 1 and h >= 0.
+For h = (n - 1) / 2, n >= 1 and h >= 0.
+In other words, for any nonempty proper binary tree, log(n + 1) - 1 <= h <= (n - 1) / 2.

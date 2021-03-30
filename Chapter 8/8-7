@@ -1,0 +1,5 @@
+Minimum external nodes: 1
+Maximum internal nodes: n - 1
+
+Maximum external nodes: n / 2
+Minimum internal nodes: n / 2
